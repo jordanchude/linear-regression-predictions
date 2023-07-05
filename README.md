@@ -16,7 +16,7 @@ The project is organized with the following file structure:
 
 To run this project, you need the following:
 
-- Python 3.x
+- Python
 - Jupyter Notebook or any Python IDE
 - Required Python libraries (numpy, pandas, scikit-learn, etc.) specified in the project's dependencies file (requirements.txt, if applicable).
 
@@ -36,7 +36,7 @@ To run this project, you need the following:
 ## Resources
 
 - Dataset: The project utilizes the "USA Real Estate Dataset" (realtor-data.csv), containing housing information such as size, location, and price.
-- Kaggle: [Link to the dataset](https://www.kaggle.com/your-username/your-dataset) (if applicable).
+- Kaggle: [Link to the dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 
 ## License
 
