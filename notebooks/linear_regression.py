@@ -8,14 +8,18 @@ import time
 filepath = "../data/realtor-data.csv"
 
 dtype_mapping = {
-    'bed': float,
-    'bath': float,
-    'acre_lot': float,
-    'house_size': float,
-    'price': float
+    'bed': 'float',
+    'bath': 'float',
+    'acre_lot': 'float',
+    'house_size': 'float',
+    'price': 'float'
 }
 
-housing_data = pd.read_csv(filepath, dtype=dtype_mapping)
+columns_to_include = ['bed', 'bath', 'acre_lot', 'house_size', 'price']
+
+housing_data = pd.read_csv(filepath, dtype=dtype_mapping, usecols=columns_to_include)
+
+print(housing_data.dtypes)
 
 x = housing_data[['bed', 'bath', 'acre_lot', 'house_size']]
 y = housing_data['price']
