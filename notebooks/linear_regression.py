@@ -17,7 +17,7 @@ dtype_mapping = {
 
 columns_to_include = ['bed', 'bath', 'acre_lot', 'house_size', 'price']
 
-housing_data = pd.read_csv(filepath, dtype=dtype_mapping, usecols=columns_to_include)
+housing_data = pd.read_csv(filepath, dtype=dtype_mapping, usecols=columns_to_include).dropna()
 
 print(housing_data.dtypes)
 
