@@ -15,8 +15,6 @@ dtype_mapping = {
     'price': 'float'
 }
 
-# columns_to_include = ['bed', 'bath', 'acre_lot', 'house_size', 'price']
-
 columns_to_include = {
     'bed': 'bed',
     'bath': 'bath',
