@@ -18,6 +18,7 @@ To run this project, you need the following:
 
 - Python
 - Jupyter Notebook or any Python IDE
+- Terminal
 - Required Python libraries (numpy, pandas, scikit-learn, etc.) specified in the project's dependencies file (requirements.txt, if applicable).
 
 ## Getting Started
@@ -25,7 +26,6 @@ To run this project, you need the following:
 1. Clone or download this repository to your local machine.
 
 2. Install the required dependencies using the following command: pip install -r requirements.txt
-
 
 3. Navigate to the "notebooks/" directory and open the "linear_regression.ipynb" notebook in Jupyter Notebook or your preferred Python IDE.
 
@@ -37,10 +37,6 @@ To run this project, you need the following:
 
 - Dataset: The project utilizes the "USA Real Estate Dataset" (realtor-data.csv), containing housing information such as size, location, and price.
 - Kaggle: [Link to the dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
-
-## License
-
-The project code is available under the [MIT License](LICENSE).
 
 ## Contribution
 
